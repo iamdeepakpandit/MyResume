@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
 
 * {
     margin: 10;
@@ -28,7 +28,8 @@ body h1 {
 }
 
 .aa {
-    color: red;
+    color:  red;
+    text-shadow: 1px 1px 2px black;
 }
 
 .table {
@@ -36,6 +37,19 @@ body h1 {
     color: black;
     text-shadow: 1px 1px gray;
 }
+
+
+h2 {
+    font-family: 'Rubik Pixels', cursive;
+    color: black;
+    text-decoration: dashed;
+    
+}
+
+button {
+    background-color: #e7e7e7; color: black;
+}
+
 
 @media screen and (max-width: 1024px) {
  
